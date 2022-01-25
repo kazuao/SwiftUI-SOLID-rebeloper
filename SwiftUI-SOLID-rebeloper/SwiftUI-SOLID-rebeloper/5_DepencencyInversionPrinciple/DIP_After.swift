@@ -6,7 +6,7 @@
 //
 
 /*:
- ### Depencency Inversion Principle
+ ### Dependency Inversion Principle
  [Wikipedia](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
  
  "Depend on Abstractions not on Concretions."
@@ -19,3 +19,27 @@ Abstractions should not depend upon details. Details should depend upon abstract
 
 import Foundation
 
+fileprivate protocol Workable {
+    func work()
+}
+
+fileprivate struct Employee: Workable {
+    func work() {
+        print("Working...")
+    }
+}
+
+fileprivate struct Employer {
+    var workables: [Workable]
+
+    func manage() {
+        workables.forEach { workable in
+            workable.work()
+        }
+    }
+}
+
+fileprivate func example() {
+    let employer = Employer(workables: [Employee()])
+    employer.manage()
+}
