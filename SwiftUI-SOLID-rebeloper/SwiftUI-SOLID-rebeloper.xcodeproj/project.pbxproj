@@ -95,8 +95,8 @@
 		0E5BD3E7278512F100662AE1 /* 4_InterfaceSegregationPrinciple */ = {
 			isa = PBXGroup;
 			children = (
-				0E5BD3E8278512F100662AE1 /* ISP_After.swift */,
 				0E5BD3E9278512F100662AE1 /* ISP_Before.swift */,
+				0E5BD3E8278512F100662AE1 /* ISP_After.swift */,
 			);
 			path = 4_InterfaceSegregationPrinciple;
 			sourceTree = "<group>";
@@ -104,8 +104,8 @@
 		0E5BD3EA278512F100662AE1 /* 5_DepencencyInversionPrinciple */ = {
 			isa = PBXGroup;
 			children = (
-				0E5BD3EB278512F100662AE1 /* DIP_After.swift */,
 				0E5BD3EC278512F100662AE1 /* DIP_Before.swift */,
+				0E5BD3EB278512F100662AE1 /* DIP_After.swift */,
 			);
 			path = 5_DepencencyInversionPrinciple;
 			sourceTree = "<group>";
@@ -122,8 +122,8 @@
 		0E5BD3F0278512F100662AE1 /* 3_LiskovSubstitutionPrinciple */ = {
 			isa = PBXGroup;
 			children = (
-				0E5BD3F1278512F100662AE1 /* LSP_After.swift */,
 				0E5BD3F2278512F100662AE1 /* LSP_Before.swift */,
+				0E5BD3F1278512F100662AE1 /* LSP_After.swift */,
 			);
 			path = 3_LiskovSubstitutionPrinciple;
 			sourceTree = "<group>";
@@ -131,8 +131,8 @@
 		0E5BD3F3278512F100662AE1 /* 1_SingleResponsibilityPrinciple */ = {
 			isa = PBXGroup;
 			children = (
-				0E5BD3F4278512F100662AE1 /* SRP_After.swift */,
 				0E5BD3F5278512F100662AE1 /* SRP_Before.swift */,
+				0E5BD3F4278512F100662AE1 /* SRP_After.swift */,
 			);
 			path = 1_SingleResponsibilityPrinciple;
 			sourceTree = "<group>";
